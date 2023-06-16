@@ -39,7 +39,11 @@ const contents = [
     "types/GodotConfigTypes.d.ts",
     "types/GodotEngine.d.ts",
   ]
-    .map((filename) => fs.readFileSync(filename, "utf-8"))
+    .map((filename) => fs.readFileSync(filename, "utf-8")),
+  "",
+  "export type GlobalGodot = Godot.GodotModuleFactory & typeof globalThis.Godot",
+  "",
+  "export { Godot, Godot3, Godot4 }",
 ].join("\n");
 
 
