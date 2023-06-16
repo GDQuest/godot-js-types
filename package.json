@@ -1,6 +1,6 @@
 {
   "name": "@gdquest/godot-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript types for the Godot loader and godot configs",
   "types": "index.d.ts",
   "scripts": {
