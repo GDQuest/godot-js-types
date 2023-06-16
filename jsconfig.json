@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"checkJs": true,
+		"allowJs": true,
+		"module": "ES2022",
+		"moduleResolution": "node",
+		"downlevelIteration": true,
+		"resolveJsonModule": true
+	},
+
+	"exclude": ["node_modules", "public"]
+}
