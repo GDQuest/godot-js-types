@@ -5,7 +5,8 @@
   "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node utils/build.mjs"
+    "build": "node utils/build.mjs",
+    "prepublish": "npm run build"
   },
   "repository": {
     "url": "https://github.com/GDQuest/godot-js-types"
